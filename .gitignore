@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+.env.*
+*.pem
+client_secret*.json
+credentials*.json
+token*.json
+
+# Local-only Claude Code settings
+.claude/settings.local.json
+
+# OS / editor / deps
+.DS_Store
+node_modules/
+__pycache__/
