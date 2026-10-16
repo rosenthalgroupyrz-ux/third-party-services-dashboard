@@ -11,8 +11,8 @@ All accounts and data in this repository are fictional test data ("Project Atlas
 | GitHub | `https://api.githubcopilot.com/mcp/` | Group |
 | Notion | `https://mcp.notion.com/mcp` | Group |
 | Linear | `https://mcp.linear.app/mcp` | TODO: student name |
-| Google Calendar | `https://calendarmcp.googleapis.com/mcp/v1` | TODO: student name |
-| Google Drive | `https://drivemcp.googleapis.com/mcp/v1` | TODO: student name |
+| Todoist | `https://ai.todoist.net/mcp` | TODO: student name |
+| Asana | `https://mcp.asana.com/v2/mcp` | TODO: student name |
 
 ## Repository structure
 
@@ -37,3 +37,5 @@ docs/             screenshots, PowerPoint, demo video
 ## Limitations
 
 **Gmail is skipped, with the instructor's permission.** Google's official Gmail MCP server (`https://gmailmcp.googleapis.com/mcp/v1`) only works for Google Cloud projects enrolled in the Google Workspace Developer Preview Program, and that enrollment requires a Google Workspace account. Our test account is a regular Gmail address, so the enrollment form rejects it. We got as far as signing in and loading the server's 23 tools, but every tool call returned "Access to this tool requires that your Google Cloud project is enrolled in the Google Workspace Developer Preview Program."
+
+**Google Calendar and Google Drive were replaced by Todoist and Asana.** Google's official Calendar and Drive MCP servers have the same Developer Preview requirement as Gmail, so they could not be used with our test account.

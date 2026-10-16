@@ -5,7 +5,7 @@ description: Download the Project Atlas test data from GitHub, Notion and Linear
 
 # Download test data
 
-Downloads the Project Atlas test data into `dataExports/` in the format defined in `localStorageFormats.md` (read it first; it is the source of truth for field names). Gmail, Google Calendar and Google Drive are out of scope.
+Downloads the Project Atlas test data into `dataExports/` in the format defined in `localStorageFormats.md` (read it first; it is the source of truth for field names). Gmail is out of scope. Todoist and Asana are not covered yet; the group member who owns each one extends this skill for it.
 
 Scripts (run from the project root):
 

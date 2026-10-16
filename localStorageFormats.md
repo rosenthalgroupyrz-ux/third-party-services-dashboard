@@ -2,7 +2,7 @@
 
 How downloaded test data is stored in `dataExports/`. The download skill (`.claude/skills/download-test-data/`) writes and validates files in exactly this format.
 
-Gmail is skipped (see README). Google Calendar and Google Drive are being replaced and are not covered here.
+Gmail is skipped (see README). Todoist and Asana are not covered yet; their sections will be added by the group member who owns each service.
 
 ## Rules for every service
 

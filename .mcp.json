@@ -1,19 +1,5 @@
 {
   "mcpServers": {
-    "google-calendar": {
-      "type": "http",
-      "url": "https://calendarmcp.googleapis.com/mcp/v1",
-      "oauth": {
-        "callbackPort": 8080
-      }
-    },
-    "google-drive": {
-      "type": "http",
-      "url": "https://drivemcp.googleapis.com/mcp/v1",
-      "oauth": {
-        "callbackPort": 8080
-      }
-    },
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/",
@@ -28,6 +14,14 @@
     "linear": {
       "type": "http",
       "url": "https://mcp.linear.app/mcp"
+    },
+    "todoist": {
+      "type": "http",
+      "url": "https://ai.todoist.net/mcp"
+    },
+    "asana": {
+      "type": "http",
+      "url": "https://mcp.asana.com/v2/mcp"
     }
   }
 }
