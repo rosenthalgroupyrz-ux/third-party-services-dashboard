@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "e202d7ef-05de-43c0-b3e0-f883e88ccc4f",
+  "identifier": "ATL-6",
+  "title": "Atlas: Build route optimization prototype for Lisbon",
+  "description": "Priya Natarajan to prototype route planning for the Lisbon hub using sample delivery addresses. Target: reduce average route time by 15 percent compared with a naive baseline. Output a short report for Joe Smith and the Northwind Logistics leadership team.",
+  "status": "Todo",
+  "status_type": "unstarted",
+  "priority": 2,
+  "priority_label": "High",
+  "due_date": "2026-12-15",
+  "estimate": 5,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-6/atlas-build-route-optimization-prototype-for-lisbon",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:16.726Z",
+  "updated_at": "2026-10-13T20:11:16.726Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWKPQ",
+  "database_id": 1418037821,
+  "name": "atlas-customer-portal",
+  "full_name": "rosenthalgroupyrz-ux/atlas-customer-portal",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Portal for Project Atlas retail customers in Lisbon and Porto.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-customer-portal",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:29Z",
+  "updated_at": "2026-10-13T21:35:40Z",
+  "pushed_at": "2026-10-13T21:35:35Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-customer-portal\n\nSelf-service portal for **Project Atlas** retail customers. Owner: **Daniel Okafor** (sales).\n\nCustomers will be able to book pickups, see delivery history, and download monthly invoices. The first five soft-launch customers will test it in March 2027 before it opens to all regional retailers.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

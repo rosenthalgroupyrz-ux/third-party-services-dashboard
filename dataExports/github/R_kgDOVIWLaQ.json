@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWLaQ",
+  "database_id": 1418038121,
+  "name": "atlas-launch-checklist",
+  "full_name": "rosenthalgroupyrz-ux/atlas-launch-checklist",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "March 2027 soft launch checklist for Project Atlas.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-launch-checklist",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:42Z",
+  "updated_at": "2026-10-13T21:35:52Z",
+  "pushed_at": "2026-10-13T21:35:47Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-launch-checklist\n\nChecklist for the **Project Atlas** soft launch in Lisbon, March 2027. Owner: **Joe Smith** (project lead).\n\n- Hub lease signed and fit-out complete\n- 12 drivers hired and trained\n- First five retail customers confirmed by **Daniel Okafor**\n- Tracking page live in Portuguese and English\n- Go or no-go checkpoint passed at the end of February 2027\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

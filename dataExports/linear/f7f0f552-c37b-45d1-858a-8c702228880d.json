@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "f7f0f552-c37b-45d1-858a-8c702228880d",
+  "identifier": "ATL-14",
+  "title": "Atlas: Plan soft launch with first five customers",
+  "description": "Plan the March 2027 soft launch of Project Atlas in Lisbon. Pick the first five retail customers with Daniel Okafor, define daily delivery performance checks, and agree on an escalation path with Joe Smith.",
+  "status": "Backlog",
+  "status_type": "backlog",
+  "priority": 2,
+  "priority_label": "High",
+  "due_date": "2027-02-15",
+  "estimate": 5,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-14/atlas-plan-soft-launch-with-first-five-customers",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:25.808Z",
+  "updated_at": "2026-10-13T20:11:25.808Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

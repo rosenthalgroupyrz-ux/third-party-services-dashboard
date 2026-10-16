@@ -2,11 +2,15 @@
 .env
 .env.*
 *.pem
+*.key
 client_secret*.json
 credentials*.json
+*credentials*.json
 token*.json
+*token*.json
+*.p12
 
-# Local-only Claude Code settings
+# Local-only Claude Code settings (per-machine; the rest of .claude/ is committed)
 .claude/settings.local.json
 
 # OS / editor / deps

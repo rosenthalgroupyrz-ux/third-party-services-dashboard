@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWIjw",
+  "database_id": 1418037391,
+  "name": "atlas-hub-inventory",
+  "full_name": "rosenthalgroupyrz-ux/atlas-hub-inventory",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Warehouse inventory tracker for the Project Atlas Lisbon hub.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-hub-inventory",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:09Z",
+  "updated_at": "2026-10-13T21:35:20Z",
+  "pushed_at": "2026-10-13T21:35:15Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-hub-inventory\n\nInventory tracker for the **Project Atlas** Lisbon distribution hub.\n\nIt records incoming pallets, shelf locations, and outgoing loads per delivery route. Warehouse leads will use it from January 2027, when the hub fit-out begins. **Maria Lopez** reviews the monthly stock-cost summary for the Atlas budget.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

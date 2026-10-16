@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWJGQ",
+  "database_id": 1418037529,
+  "name": "atlas-driver-scheduler",
+  "full_name": "rosenthalgroupyrz-ux/atlas-driver-scheduler",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Shift scheduling for the 12 Project Atlas delivery drivers.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-driver-scheduler",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:16Z",
+  "updated_at": "2026-10-13T21:35:26Z",
+  "pushed_at": "2026-10-13T21:35:21Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-driver-scheduler\n\nShift scheduling tool for the 12 delivery drivers joining **Project Atlas** in February 2027. Owner: **Priya Natarajan**.\n\nIt balances morning and afternoon shifts, respects Portuguese working-time rules, and flags gaps one week ahead. The driver hiring shortfall is a top item in the Atlas risk register, so **Joe Smith** reviews the schedule every Monday.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

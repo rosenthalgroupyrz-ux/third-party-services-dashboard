@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-819d-be30-cb64fe31cfc1",
+  "type": "page",
+  "title": "Atlas Budget and Forecast",
+  "icon": {
+    "type": "emoji",
+    "emoji": "💶"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b819dbe30cb64fe31cfc1",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Atlas Budget and Forecast"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.711Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Owner: Maria Lopez. Status: draft for review by Joe Smith.\n## Initial budget (EUR)\n<table header-row=\"true\">\n<tr>\n<td>Category</td>\n<td>Amount</td>\n</tr>\n<tr>\n<td>Lisbon hub lease (12 months)</td>\n<td>240,000</td>\n</tr>\n<tr>\n<td>Vehicles and equipment</td>\n<td>310,000</td>\n</tr>\n<tr>\n<td>Hiring and training</td>\n<td>180,000</td>\n</tr>\n<tr>\n<td>Marketing and partnerships</td>\n<td>95,000</td>\n</tr>\n</table>\nTotal planned spend for Project Atlas phase one: 825,000 EUR. Break-even is forecast for month 14 after the Lisbon launch.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

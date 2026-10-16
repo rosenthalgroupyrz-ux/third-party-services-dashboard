@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "21ed2ba0-f82d-449e-843f-9e81468a3a0b",
+  "identifier": "ATL-7",
+  "title": "Atlas: Complete Porto retailer customer interviews",
+  "description": "Daniel Okafor has finished three of five planned interviews with Porto retailers for Project Atlas. Book the last two, record notes in the Atlas Notion workspace, and summarize demand for same-day and cold-chain delivery.",
+  "status": "In Progress",
+  "status_type": "started",
+  "priority": 2,
+  "priority_label": "High",
+  "due_date": "2026-10-30",
+  "estimate": null,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-7/atlas-complete-porto-retailer-customer-interviews",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:17.585Z",
+  "updated_at": "2026-10-13T20:11:17.585Z",
+  "started_at": "2026-10-13T20:11:17.611Z",
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-81cc-a1b2-e769a03c1eea",
+  "type": "page",
+  "title": "Atlas Hiring Plan",
+  "icon": {
+    "type": "emoji",
+    "emoji": "👥"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b81cca1b2e769a03c1eea",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Atlas Hiring Plan"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.719Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Owner: Priya Natarajan with support from Joe Smith.\n## Roles for the Lisbon hub\n- 1 hub manager (start January 2027)\n- 12 delivery drivers (start February 2027)\n- 2 warehouse leads\n- 1 customer support specialist, Portuguese and English\nRecruiting begins in November 2026. Interviews are coordinated by Maria Lopez for budget alignment.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

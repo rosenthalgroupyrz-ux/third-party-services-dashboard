@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "382a3d56-215d-4976-9ff8-d6502f1dee48",
+  "identifier": "ATL-11",
+  "title": "Atlas: Evaluate cold-chain vehicle options",
+  "description": "Two grocery retailers in Porto asked about temperature-controlled delivery. Compare leasing and buying refrigerated vans for the Lisbon hub and share costs with Maria Lopez. Joe Smith needs a recommendation before the February go or no-go checkpoint.",
+  "status": "Todo",
+  "status_type": "unstarted",
+  "priority": 3,
+  "priority_label": "Medium",
+  "due_date": "2027-01-15",
+  "estimate": null,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-11/atlas-evaluate-cold-chain-vehicle-options",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:22.017Z",
+  "updated_at": "2026-10-13T20:11:22.017Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

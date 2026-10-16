@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "343a9457-b527-46e5-a028-6f9524ab9e0b",
+  "identifier": "ATL-13",
+  "title": "Atlas: Set up weekly status meeting and report template",
+  "description": "Joe Smith set up the Monday 10:00 Project Atlas status meeting and a reusable weekly report template in Notion. Completed in the first week of the project.",
+  "status": "Done",
+  "status_type": "completed",
+  "priority": 4,
+  "priority_label": "Low",
+  "due_date": null,
+  "estimate": null,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-13/atlas-set-up-weekly-status-meeting-and-report-template",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:23.980Z",
+  "updated_at": "2026-10-13T20:11:23.980Z",
+  "started_at": null,
+  "completed_at": "2026-10-13T20:11:24.028Z",
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

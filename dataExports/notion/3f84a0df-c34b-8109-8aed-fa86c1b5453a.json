@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-8109-8aed-fa86c1b5453a",
+  "type": "page",
+  "title": "Atlas Launch Timeline",
+  "icon": {
+    "type": "emoji",
+    "emoji": "🗓️"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b81098aedfa86c1b5453a",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Atlas Launch Timeline"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.714Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Project Atlas runs in four phases, led by Joe Smith.\n1. **Planning** — October to December 2026: budget approval, hub lease, hiring plan\n2. **Build-out** — January to February 2027: fit out the Lisbon hub, onboard vehicles\n3. **Soft launch** — March 2027: first five customers, daily review of delivery performance\n4. **Scale** — April to September 2027: grow to 15 regional retail customers\nA go or no-go checkpoint happens at the end of February 2027.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

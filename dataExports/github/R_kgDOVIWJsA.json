@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWJsA",
+  "database_id": 1418037680,
+  "name": "atlas-budget-model",
+  "full_name": "rosenthalgroupyrz-ux/atlas-budget-model",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Phase one budget model (825,000 EUR) for Project Atlas.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-budget-model",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:22Z",
+  "updated_at": "2026-10-13T21:35:32Z",
+  "pushed_at": "2026-10-13T21:35:28Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-budget-model\n\nBudget model for **Project Atlas** phase one. Owner: **Maria Lopez** (finance).\n\nPlanned spend is 825,000 EUR: hub lease 240,000, vehicles and equipment 310,000, hiring and training 180,000, and marketing 95,000. A 10 percent contingency is being added at the request of **Joe Smith**. Break-even is forecast for month 14 after the Lisbon launch.\n\nAll figures are fictional test data.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "af0469f6-d670-4489-b4b7-656745775110",
+  "identifier": "ATL-8",
+  "title": "Atlas: Approve phase one budget (825,000 EUR)",
+  "description": "Maria Lopez submitted the Project Atlas phase one budget draft. Joe Smith to review, add the 10 percent contingency requested in the risk register, and get sign-off from Northwind Logistics finance.",
+  "status": "Todo",
+  "status_type": "unstarted",
+  "priority": 1,
+  "priority_label": "Urgent",
+  "due_date": "2026-10-31",
+  "estimate": null,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-8/atlas-approve-phase-one-budget-825000-eur",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:18.445Z",
+  "updated_at": "2026-10-13T20:11:18.445Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

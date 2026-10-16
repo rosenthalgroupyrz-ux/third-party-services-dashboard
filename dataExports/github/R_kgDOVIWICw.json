@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWICw",
+  "database_id": 1418037259,
+  "name": "atlas-tracking-page",
+  "full_name": "rosenthalgroupyrz-ux/atlas-tracking-page",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Customer parcel-tracking page in Portuguese and English for Project Atlas.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-tracking-page",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:03Z",
+  "updated_at": "2026-10-13T21:35:13Z",
+  "pushed_at": "2026-10-13T21:35:09Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-tracking-page\n\nA simple parcel-tracking page for **Project Atlas** customers in Lisbon and Porto. Owner: **Priya Natarajan**.\n\nRetailers interviewed by **Daniel Okafor** asked for tracking links in Portuguese and English that show where a parcel is and when it will arrive. This repository holds the page design and a small mock data set.\n\nPlanned for the March 2027 soft launch.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

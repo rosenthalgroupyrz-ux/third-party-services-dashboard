@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "59293383-a605-4719-88d0-3efb1b4e77af",
+  "identifier": "ATL-9",
+  "title": "Atlas: Draft driver recruiting plan for Lisbon",
+  "description": "Create the recruiting plan for 12 delivery drivers for the Lisbon hub, starting in November 2026. Include job posting channels, interview process, and a training schedule. Owner: Priya Natarajan with budget input from Maria Lopez.",
+  "status": "Backlog",
+  "status_type": "backlog",
+  "priority": 3,
+  "priority_label": "Medium",
+  "due_date": "2026-11-15",
+  "estimate": 3,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-9/atlas-draft-driver-recruiting-plan-for-lisbon",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:19.512Z",
+  "updated_at": "2026-10-13T20:11:19.512Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

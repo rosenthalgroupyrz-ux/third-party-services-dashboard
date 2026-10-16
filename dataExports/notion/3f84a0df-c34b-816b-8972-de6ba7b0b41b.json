@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-816b-8972-de6ba7b0b41b",
+  "type": "page",
+  "title": "Atlas Kickoff Meeting Notes",
+  "icon": {
+    "type": "emoji",
+    "emoji": "📝"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b816b8972de6ba7b0b41b",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Atlas Kickoff Meeting Notes"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.707Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Meeting date: 2026-10-05. Attendees: Joe Smith, Maria Lopez, Priya Natarajan, Daniel Okafor.\n## Decisions\n- Lisbon chosen over Porto as the first hub location because of airport and port access.\n- Joe Smith owns the overall plan and reports to the Northwind Logistics leadership team.\n- Weekly status meetings every Monday at 10:00.\n## Action items\n- [ ] Maria Lopez drafts the Atlas budget by October 19\n- [ ] Priya Natarajan scopes route optimization requirements\n- [ ] Daniel Okafor books five customer interviews in Porto and Lisbon",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

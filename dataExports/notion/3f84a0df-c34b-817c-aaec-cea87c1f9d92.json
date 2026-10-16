@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-817c-aaec-cea87c1f9d92",
+  "type": "page",
+  "title": "Atlas Risk Register",
+  "icon": {
+    "type": "emoji",
+    "emoji": "⚠️"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b817caaeccea87c1f9d92",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Atlas Risk Register"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.717Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Maintained by Joe Smith and reviewed every Monday.\n## Top risks\n- **Hub lease delays** — medium likelihood, high impact. Mitigation: negotiate a short-term option with the Lisbon landlord.\n- **Driver hiring shortfall** — high likelihood, medium impact. Mitigation: start recruiting in November; Priya Natarajan to build a scheduling model.\n- **Currency and fuel cost swings** — medium likelihood, medium impact. Mitigation: Maria Lopez to add a 10 percent contingency to the Atlas budget.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

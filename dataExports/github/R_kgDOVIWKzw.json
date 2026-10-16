@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWKzw",
+  "database_id": 1418037967,
+  "name": "atlas-cold-chain-monitor",
+  "full_name": "rosenthalgroupyrz-ux/atlas-cold-chain-monitor",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Temperature monitoring for Project Atlas refrigerated vans.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-cold-chain-monitor",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:35Z",
+  "updated_at": "2026-10-13T21:35:46Z",
+  "pushed_at": "2026-10-13T21:35:41Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-cold-chain-monitor\n\nTemperature monitoring for the refrigerated vans planned for **Project Atlas**.\n\nTwo grocery retailers in Porto asked for temperature-controlled delivery. This repository sketches how van sensors would report readings every five minutes and alert the driver if a load goes above 5 °C. **Maria Lopez** is comparing the cost of leasing versus buying the vans.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

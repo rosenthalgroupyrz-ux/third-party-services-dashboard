@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-810f-842c-c32d8797d30b",
+  "type": "page",
+  "title": "Lisbon Market Research Summary",
+  "icon": {
+    "type": "emoji",
+    "emoji": "📊"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b810f842cc32d8797d30b",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Lisbon Market Research Summary"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.709Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "The Lisbon metropolitan area has roughly 2.8 million residents and a fast-growing e-commerce segment, making it the strongest first market for Project Atlas.\n## Findings\n- E-commerce parcel volume in Portugal grew about 18 percent year over year in the reference study.\n- Most regional retailers rely on two or three national carriers and report slow same-day options.\n- Cold-chain delivery for groceries is underserved in the Lisbon area.\n## Implication for Project Atlas\nA same-day and cold-chain offering from the Lisbon hub gives Northwind Logistics a clear entry wedge.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

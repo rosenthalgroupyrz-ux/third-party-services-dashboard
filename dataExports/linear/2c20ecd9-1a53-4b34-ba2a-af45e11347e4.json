@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "2c20ecd9-1a53-4b34-ba2a-af45e11347e4",
+  "identifier": "ATL-10",
+  "title": "Atlas: Design real-time tracking page for customers",
+  "description": "Retailers interviewed for Project Atlas asked for tracking links in Portuguese and English. Design a simple tracking page that shows the parcel location and the estimated arrival time. Owner: Priya Natarajan.",
+  "status": "Backlog",
+  "status_type": "backlog",
+  "priority": 3,
+  "priority_label": "Medium",
+  "due_date": null,
+  "estimate": 8,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-10/atlas-design-real-time-tracking-page-for-customers",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:20.244Z",
+  "updated_at": "2026-10-13T20:11:20.244Z",
+  "started_at": null,
+  "completed_at": null,
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}

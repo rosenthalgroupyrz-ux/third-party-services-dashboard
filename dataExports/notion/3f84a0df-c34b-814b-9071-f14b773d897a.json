@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-814b-9071-f14b773d897a",
+  "type": "page",
+  "title": "Competitor Analysis: Iberia Logistics",
+  "icon": {
+    "type": "emoji",
+    "emoji": "🔎"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b814b9071f14b773d897a",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Competitor Analysis: Iberia Logistics"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.712Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Three competitors matter for Project Atlas in Portugal. All names are fictional.\n- **Costa Rapid** — strong national coverage, weak same-day service\n- **Tagus Freight** — low prices, limited tracking for customers\n- **Iberia Express Group** — premium service, high minimum volumes\n## Takeaway\nNorthwind Logistics can differentiate on real-time tracking and cold-chain delivery. Daniel Okafor will validate this in customer interviews.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVMabQQ",
+  "database_id": 1422302017,
+  "name": "atlas-weekly-reports",
+  "full_name": "rosenthalgroupyrz-ux/atlas-weekly-reports",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Weekly Project Atlas status reports.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-weekly-reports",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-16T14:56:24Z",
+  "updated_at": "2026-10-16T14:56:26Z",
+  "pushed_at": "2026-10-16T14:56:30Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-weekly-reports\n\nWeekly status reports for **Project Atlas**, prepared by **Joe Smith** for every Monday 10:00 meeting.\n\nEach report covers progress, blockers, and next steps across the Lisbon hub, the Atlas budget (**Maria Lopez**), engineering (**Priya Natarajan**), and customers (**Daniel Okafor**). Week 1 (October 5, 2026): kickoff done, Lisbon chosen as the first hub, landlord proposal pending.\n",
+  "exported_at": "2026-10-16T14:57:05Z"
+}

@@ -1,0 +1,22 @@
+{
+  "service": "github",
+  "id": "R_kgDOVIWL6w",
+  "database_id": 1418038251,
+  "name": "atlas-competitor-notes",
+  "full_name": "rosenthalgroupyrz-ux/atlas-competitor-notes",
+  "owner": "rosenthalgroupyrz-ux",
+  "description": "Notes on Costa Rapid, Tagus Freight and Iberia Express Group.",
+  "html_url": "https://github.com/rosenthalgroupyrz-ux/atlas-competitor-notes",
+  "visibility": "private",
+  "is_fork": false,
+  "is_archived": false,
+  "default_branch": "main",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "created_at": "2026-10-13T21:35:48Z",
+  "updated_at": "2026-10-13T21:35:57Z",
+  "pushed_at": "2026-10-13T21:35:53Z",
+  "readme_path": "README.md",
+  "readme_text": "# atlas-competitor-notes\n\nCompetitor notes for **Project Atlas**, written by **Daniel Okafor**. All company names are fictional.\n\n- **Costa Rapid**: strong national coverage, weak same-day service\n- **Tagus Freight**: low prices, limited customer tracking\n- **Iberia Express Group**: premium service, high minimum volumes\n\nNorthwind Logistics plans to compete on real-time tracking and cold-chain delivery.\n",
+  "exported_at": "2026-10-16T14:51:51Z"
+}

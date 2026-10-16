@@ -1,0 +1,26 @@
+{
+  "service": "notion",
+  "id": "3f84a0df-c34b-8104-b504-d83d98d0e54c",
+  "type": "page",
+  "title": "Project Atlas Overview",
+  "icon": {
+    "type": "emoji",
+    "emoji": "🧭"
+  },
+  "cover": null,
+  "url": "https://app.notion.com/p/3f84a0dfc34b8104b504d83d98d0e54c",
+  "ancestor_path": [],
+  "properties": {
+    "title": "Project Atlas Overview"
+  },
+  "verification_state": "unverified",
+  "workspace": {
+    "id": "c224a0df-c34b-81b6-ace7-00034e766a7b",
+    "name": "Zach’s Space"
+  },
+  "last_edited_time": "2026-10-13T20:10:56.686Z",
+  "content_snapshot_at": "2026-10-13T20:10:56.705Z",
+  "body_format": "notion-enhanced-markdown",
+  "body_markdown": "Project Atlas is Northwind Logistics' initiative to expand its delivery network into Portugal, starting with a Lisbon hub in Q1 2027.\n## Goals\n- Open a Lisbon distribution hub by March 2027\n- Win 15 regional retail customers in the first six months\n- Reach 94 percent on-time delivery within 90 days of launch\n## Core team\n- **Joe Smith** — Project Lead\n- **Maria Lopez** — Finance and budgeting\n- **Priya Natarajan** — Engineering and route optimization\n- **Daniel Okafor** — Sales and customer partnerships\n## Key search terms\nProject Atlas, Lisbon hub, Northwind Logistics, market expansion.",
+  "exported_at": "2026-10-16T14:36:35Z"
+}

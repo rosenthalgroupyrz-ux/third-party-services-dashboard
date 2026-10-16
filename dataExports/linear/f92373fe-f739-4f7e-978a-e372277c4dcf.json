@@ -1,0 +1,22 @@
+{
+  "service": "linear",
+  "id": "f92373fe-f739-4f7e-978a-e372277c4dcf",
+  "identifier": "ATL-12",
+  "title": "Atlas: Write competitor summary for Costa Rapid and Tagus Freight",
+  "description": "Turn the Notion competitor analysis into a one-page summary comparing Costa Rapid, Tagus Freight, and Iberia Express Group on price, speed, and tracking. Owner: Daniel Okafor. Share with Joe Smith before the next Monday status meeting.",
+  "status": "Done",
+  "status_type": "completed",
+  "priority": 4,
+  "priority_label": "Low",
+  "due_date": null,
+  "estimate": null,
+  "url": "https://linear.app/atlas-test-workspace/issue/ATL-12/atlas-write-competitor-summary-for-costa-rapid-and-tagus-freight",
+  "team_key": "ATL",
+  "labels": [],
+  "created_at": "2026-10-13T20:11:23.218Z",
+  "updated_at": "2026-10-13T20:11:23.218Z",
+  "started_at": null,
+  "completed_at": "2026-10-13T20:11:23.250Z",
+  "canceled_at": null,
+  "exported_at": "2026-10-16T14:51:51Z"
+}
