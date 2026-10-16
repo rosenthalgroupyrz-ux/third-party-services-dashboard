@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Data Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <div>
+          <h1>Atlas Data Dashboard</h1>
+          <p class="sub">Search the local exports in <code>dataExports/</code></p>
+        </div>
+      </div>
+      <button id="reload" class="ghost" type="button" title="Re-read dataExports/">Reload data</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form id="search-form" class="search" role="search" autocomplete="off">
+      <label class="visually-hidden" for="q">Search</label>
+      <input id="q" type="search" placeholder="Search titles, bodies and metadata…  e.g. Atlas, Joe Smith" autofocus>
+      <label class="visually-hidden" for="sort">Sort</label>
+      <select id="sort">
+        <option value="relevance">Best match</option>
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </form>
+
+    <nav id="services" class="services" aria-label="Filter by service"></nav>
+
+    <div id="problems" class="problems" hidden></div>
+
+    <p id="summary" class="summary" aria-live="polite"></p>
+    <ol id="results" class="results"></ol>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -24,6 +24,21 @@ docs/             screenshots, PowerPoint, demo video
 .mcp.json         MCP server configuration (no secrets)
 ```
 
+## Running the dashboard
+
+Requires Python 3.9+ and nothing else (standard library only, no install step).
+
+```
+python3 webapp/server.py
+```
+
+Then open <http://127.0.0.1:8000/>. Use `--port 8080` to change the port, and Ctrl+C to stop.
+
+- The dashboard reads only the JSON files in `dataExports/` and makes no live API calls. Every service subfolder is picked up automatically, and new files appear after clicking **Reload data**, with no restart needed.
+- Choose a service or **All services**, then type to search titles, bodies and metadata. Every word must match. Put a phrase in quotes (`"route plan"`) to match it exactly.
+- Files that can't be read (invalid JSON, not a JSON object) are listed in a warning and skipped. The other results still show.
+- The search is saved in the URL, for example `http://127.0.0.1:8000/?q=Atlas&service=linear`.
+
 ## TODO
 
 - [ ] Setup: credentials and authentication for each service
