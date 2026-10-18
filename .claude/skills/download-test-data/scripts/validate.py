@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate dataExports/ against localStorageFormats.md.
 
-Usage: python3 validate.py [service ...]   (default: github notion linear)
+Usage: python3 validate.py [service ...]   (default: github notion linear todoist)
 
 Checks, for every dataExports/<service>/*.json file:
   - the file is valid UTF-8 JSON holding an object
@@ -24,12 +24,14 @@ REQUIRED = {
     "github": ["id", "name", "full_name", "html_url", "created_at", "updated_at", "exported_at"],
     "notion": ["id", "title", "url", "last_edited_time", "body_markdown", "exported_at"],
     "linear": ["id", "identifier", "title", "status", "priority", "url", "created_at", "updated_at", "exported_at"],
+    "todoist": ["id", "content", "priority", "project_id", "project_name", "added_at", "exported_at"],
 }
 # Keys that must exist but may be null or empty, because the source allows that.
 PRESENT = {
     "github": ["description", "readme_text"],
     "notion": [],
     "linear": ["description", "due_date", "estimate"],
+    "todoist": ["description", "due_date", "section_id", "section_name", "completed_at"],
 }
 TIMESTAMP = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,6})?Z$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")

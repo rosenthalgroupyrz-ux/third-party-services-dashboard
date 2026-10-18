@@ -1,0 +1,20 @@
+{
+  "service": "todoist",
+  "id": "6hp6fwQVPPmJ8H8m",
+  "content": "Plan Lisbon launch announcement",
+  "description": "Owner: Daniel Okafor (sales). Press and customer announcement for the hub opening.",
+  "due_date": "2027-01-15",
+  "is_recurring": false,
+  "priority": "p4",
+  "labels": [
+    "daniel-okafor"
+  ],
+  "project_id": "6hp6frw7j63WVmwm",
+  "project_name": "Project Atlas",
+  "section_id": "6hp6fvCmmfPrrrqF",
+  "section_name": "To Do",
+  "checked": false,
+  "added_at": "2026-10-18T16:08:00.732Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T16:08:43Z"
+}

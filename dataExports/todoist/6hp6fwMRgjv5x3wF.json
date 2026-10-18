@@ -1,0 +1,20 @@
+{
+  "service": "todoist",
+  "id": "6hp6fwMRgjv5x3wF",
+  "content": "Draft Lisbon customer outreach list",
+  "description": "Owner: Daniel Okafor (sales). Compile target customers for hub launch.",
+  "due_date": "2026-11-10",
+  "is_recurring": false,
+  "priority": "p3",
+  "labels": [
+    "daniel-okafor"
+  ],
+  "project_id": "6hp6frw7j63WVmwm",
+  "project_name": "Project Atlas",
+  "section_id": "6hp6fvCmmfPrrrqF",
+  "section_name": "To Do",
+  "checked": false,
+  "added_at": "2026-10-18T16:07:59.758Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T16:08:43Z"
+}

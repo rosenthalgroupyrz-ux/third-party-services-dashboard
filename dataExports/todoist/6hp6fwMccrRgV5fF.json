@@ -1,0 +1,20 @@
+{
+  "service": "todoist",
+  "id": "6hp6fwMccrRgV5fF",
+  "content": "Register Northwind Portugal entity",
+  "description": "Owner: Maria Lopez (finance). Legal registration of the Portuguese subsidiary.",
+  "due_date": "2026-10-12",
+  "is_recurring": false,
+  "priority": "p2",
+  "labels": [
+    "maria-lopez"
+  ],
+  "project_id": "6hp6frw7j63WVmwm",
+  "project_name": "Project Atlas",
+  "section_id": "6hp6fv9P3xjx8pgm",
+  "section_name": "Done",
+  "checked": true,
+  "added_at": "2026-10-18T16:07:59.215Z",
+  "completed_at": "2026-10-18T16:08:12.102Z",
+  "exported_at": "2026-10-18T16:08:43Z"
+}

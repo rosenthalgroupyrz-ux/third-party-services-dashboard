@@ -2,7 +2,7 @@
 
 How downloaded test data is stored in `dataExports/`. The download skill (`.claude/skills/download-test-data/`) writes and validates files in exactly this format.
 
-Gmail is skipped (see README). Todoist and Asana are not covered yet; their sections will be added by the group member who owns each service.
+Gmail is skipped (see README). Asana is not covered yet; its section will be added by the group member who owns it.
 
 ## Rules for every service
 
@@ -92,12 +92,35 @@ Filename: the issue's UUID, e.g. `9b1c...-....json`. The human identifier (`ATL-
 | `started_at`, `completed_at`, `canceled_at` | timestamp or null | when the server returns them |
 | `exported_at` | timestamp | |
 
+## Todoist: `dataExports/todoist/`
+
+Scope: every task (open and completed) in the project `Project Atlas` on the test account.
+
+Filename: the task ID, e.g. `6hp6fwP8qC3W8JXm.json`.
+
+| Field | Type | Source |
+| --- | --- | --- |
+| `id` | string | task ID |
+| `content` | string | task title |
+| `description` | string or null | task description; the task owner is written here too |
+| `due_date` | date or null | `YYYY-MM-DD` |
+| `is_recurring` | boolean | |
+| `priority` | string | `p1` (highest) to `p4` (default) |
+| `labels` | string[] | label names; used for the task owner (e.g. `joe-smith`) |
+| `project_id`, `project_name` | string | project the task belongs to |
+| `section_id`, `section_name` | string or null | section (`To Do`, `In Progress`, `Done`); used as the status |
+| `checked` | boolean | `true` once completed |
+| `added_at` | timestamp | when the task was created |
+| `completed_at` | timestamp or null | when it was completed; `null` while open |
+| `exported_at` | timestamp | |
+
 ## Limitations
 
-- **Current export status (2026-10-16):** Notion: 10 pages. GitHub: 10 repositories. Linear: 14 issues (10 Project Atlas issues plus Linear's 4 default onboarding issues, ATL-1 to ATL-4). All files pass `validate.py`.
+- **Current export status (2026-10-16):** Notion: 10 pages. GitHub: 10 repositories. Linear: 14 issues (10 Project Atlas issues plus Linear's 4 default onboarding issues, ATL-1 to ATL-4). Todoist: 12 tasks (2026-10-18). All files pass `validate.py`.
 - **Notion has no creation time.** The Notion MCP `fetch` tool returns `last_edited_time` but not `created_time` or the page author, so those fields are left out.
 - **Notion search is keyword-based** and capped at 50 results per query. A page that mentions Atlas or Lisbon only in a way the search index misses would not be exported. Search timestamps are rounded to the minute, so the skill uses the fetched `last_edited_time` as the authoritative edit time.
 - **Notion bodies are Markdown, not Notion blocks.** Formatting maps to enhanced Markdown; comments and discussions are not exported. Uploaded files are referenced, not downloaded.
 - **GitHub README** is the one GitHub picks for the default branch; READMEs in subfolders or other branches are not included. Issues, pull requests and code are not exported.
 - **Linear** fields depend on what the official Linear MCP server returns; fields it omits are left out rather than filled in. Comments, attachments and sub-issue trees are not exported.
+- **Todoist** returns no last-changed time and no task URL, so neither is stored and every task is re-listed on each run (unchanged files are still left alone). Free personal projects have no assignees, so the owner is a label plus a line in the description. Status is the section; completed tasks have `checked: true`. Comments, reminders and subtasks are not exported.
 - **Deletions are not mirrored.** If an item is deleted at the source, its old file stays in `dataExports/` until removed by hand.

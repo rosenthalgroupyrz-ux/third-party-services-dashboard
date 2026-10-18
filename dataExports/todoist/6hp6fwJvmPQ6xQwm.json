@@ -1,0 +1,20 @@
+{
+  "service": "todoist",
+  "id": "6hp6fwJvmPQ6xQwm",
+  "content": "Driver hiring plan",
+  "description": "Owner: Priya Natarajan (engineering). Draft the hiring plan for Lisbon delivery drivers.",
+  "due_date": "2026-11-03",
+  "is_recurring": false,
+  "priority": "p2",
+  "labels": [
+    "priya-natarajan"
+  ],
+  "project_id": "6hp6frw7j63WVmwm",
+  "project_name": "Project Atlas",
+  "section_id": "6hp6fvCWf78cf24F",
+  "section_name": "In Progress",
+  "checked": false,
+  "added_at": "2026-10-18T16:07:59.202Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T16:08:43Z"
+}

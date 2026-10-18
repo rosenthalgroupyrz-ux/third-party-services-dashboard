@@ -1,11 +1,11 @@
 ---
 name: download-test-data
-description: Download the Project Atlas test data from GitHub, Notion and Linear into dataExports/<service>/ as one JSON file per item, skipping items that have not changed, then validate the files. Use when asked to download, refresh, re-export or sync the test data or dataExports.
+description: Download the Project Atlas test data from GitHub, Notion, Linear and Todoist into dataExports/<service>/ as one JSON file per item, skipping items that have not changed, then validate the files. Use when asked to download, refresh, re-export or sync the test data or dataExports.
 ---
 
 # Download test data
 
-Downloads the Project Atlas test data into `dataExports/` in the format defined in `localStorageFormats.md` (read it first; it is the source of truth for field names). Gmail is out of scope. Todoist and Asana are not covered yet; the group member who owns each one extends this skill for it.
+Downloads the Project Atlas test data into `dataExports/` in the format defined in `localStorageFormats.md` (read it first; it is the source of truth for field names). Gmail is out of scope. Asana is not covered yet; the group member who owns it extends this skill for it.
 
 Scripts (run from the project root):
 
@@ -16,9 +16,9 @@ Write each service's records as a JSON array to a scratch file (not inside the p
 
 ## 0. Check access
 
-Use the project's MCP servers from `.mcp.json` (`github`, `notion`, `linear`). If one is not connected or signed in, skip that service, tell the user which one and why, and continue with the others. Never type tokens or passwords; the user sets `GITHUB_PAT` and signs in through `/mcp`.
+Use the project's MCP servers from `.mcp.json` (`github`, `notion`, `linear`, `todoist`). If one is not connected or signed in, skip that service, tell the user which one and why, and continue with the others. Never type tokens or passwords; the user sets `GITHUB_PAT` and signs in through `/mcp`.
 
-Confirm each server is signed in as the test account (`rosenthalgroupyrz@gmail.com` / its GitHub login). Notion: `notion-get-self`.
+Confirm each server is signed in as the test account (`rosenthalgroupyrz@gmail.com` / its GitHub login). Notion: `notion-get-self`. Todoist: `user-info` (email must be the test account).
 
 ## 1. Skip unchanged items
 
@@ -29,6 +29,7 @@ For each service, first list the items, then compare each listed item's last-cha
 | GitHub | `updated_at` and `pushed_at` | same fields |
 | Notion | search result `timestamp` (rounded to the minute) | `last_edited_time`, truncated to the minute |
 | Linear | `updatedAt` | `updated_at` |
+| Todoist | none (the server returns no change time) | none |
 
 Only fetch full details (README, page body, issue description) for items that are new or whose time differs. Include only those in the records file. `save_items.py` also refuses to rewrite identical content, so a wasted fetch never changes a file.
 
@@ -59,7 +60,14 @@ Only fetch full details (README, page body, issue description) for items that ar
 2. For each issue needing a fetch, get the full issue.
 3. Build records with the fields in `localStorageFormats.md`: `id` is the UUID, `identifier` is `ATL-n`, `status` is the state name, `priority` is the 0–4 number, `due_date` is `YYYY-MM-DD` or `null`, `estimate` is a number or `null`. Keep extra fields the server returns (assignee, labels, project, cycle, started/completed/canceled times) using snake_case names. Leave out anything it does not return.
 
-## 5. Save and validate
+## 5. Todoist: project "Project Atlas"
+
+1. `find-projects` with `searchText` `Project Atlas`; keep the exact match. `find-sections` for its sections.
+2. List its open tasks with `find-tasks` (`projectId`, `limit` 100, page with `cursor`; pass `responsibleUserFiltering: all`) and its completed tasks with `find-completed-tasks` (`projectId`, a wide `since`/`until` window; the range is at most about a week per call, so use several windows back to the project's creation).
+3. Todoist gives no change time, so every task is re-listed; `save_items.py` leaves unchanged files untouched.
+4. Build records with the fields in `localStorageFormats.md`: `due_date` from `dueDate`, `is_recurring` from `recurring`, `added_at`/`completed_at` from `addedAt`/`completedAt` (`null` for open tasks), `checked` from `checked`, `priority` as returned (`p1` highest to `p4`). `project_name` and `section_name` come from the project and section lookups. The task owner is in `labels` and the description, because a free personal project has no assignees. Do not add a URL; the server does not return one.
+
+## 6. Save and validate
 
 1. For each service with records: `save_items.py <service> <records.json>`.
 2. Run `validate.py`. Fix any failure and re-run until all pass.

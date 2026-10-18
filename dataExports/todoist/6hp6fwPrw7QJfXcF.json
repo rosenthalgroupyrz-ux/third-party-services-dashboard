@@ -1,0 +1,20 @@
+{
+  "service": "todoist",
+  "id": "6hp6fwPrw7QJfXcF",
+  "content": "Negotiate vehicle leasing quotes",
+  "description": "Owner: Maria Lopez (finance). Compare three fleet leasing quotes.",
+  "due_date": "2026-11-18",
+  "is_recurring": false,
+  "priority": "p3",
+  "labels": [
+    "maria-lopez"
+  ],
+  "project_id": "6hp6frw7j63WVmwm",
+  "project_name": "Project Atlas",
+  "section_id": "6hp6fvCmmfPrrrqF",
+  "section_name": "To Do",
+  "checked": false,
+  "added_at": "2026-10-18T16:08:00.140Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T16:08:43Z"
+}
