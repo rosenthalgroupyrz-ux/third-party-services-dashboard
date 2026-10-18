@@ -1,0 +1,21 @@
+{
+  "service": "asana",
+  "id": "1219623505079574",
+  "name": "Review Lisbon hub lease",
+  "description": "Owner: Joe Smith (project lead). Priority: p1. Review lease terms for the Lisbon delivery hub warehouse.",
+  "owner": "Joe Smith",
+  "priority": "p1",
+  "due_date": "2026-10-22",
+  "assignee": null,
+  "tags": [],
+  "project_id": "1219623505079011",
+  "project_name": "Project Atlas",
+  "section_id": "1219624185547460",
+  "section_name": "To Do",
+  "completed": false,
+  "url": "https://app.asana.com/1/1219625933792196/project/1219623505079011/task/1219623505079574",
+  "created_at": "2026-10-18T19:39:22.178Z",
+  "modified_at": "2026-10-18T19:39:22.418Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T19:49:31Z"
+}

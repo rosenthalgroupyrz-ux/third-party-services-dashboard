@@ -1,0 +1,21 @@
+{
+  "service": "asana",
+  "id": "1219625940524788",
+  "name": "Set up route optimization pilot",
+  "description": "Owner: Priya Natarajan (engineering). Priority: p2. Pilot routing software for Lisbon deliveries.",
+  "owner": "Priya Natarajan",
+  "priority": "p2",
+  "due_date": "2026-11-14",
+  "assignee": null,
+  "tags": [],
+  "project_id": "1219623505079011",
+  "project_name": "Project Atlas",
+  "section_id": "1219624185564147",
+  "section_name": "In Progress",
+  "completed": false,
+  "url": "https://app.asana.com/1/1219625933792196/project/1219623505079011/task/1219625940524788",
+  "created_at": "2026-10-18T19:39:25.818Z",
+  "modified_at": "2026-10-18T19:39:26.105Z",
+  "completed_at": null,
+  "exported_at": "2026-10-18T19:49:31Z"
+}

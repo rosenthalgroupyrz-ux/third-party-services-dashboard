@@ -15,7 +15,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-SERVICES = {"github", "notion", "linear", "todoist"}
+SERVICES = {"github", "notion", "linear", "todoist", "asana"}
 ROOT = Path(__file__).resolve().parents[4]
 
 
