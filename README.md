@@ -20,7 +20,7 @@ Cloud services  →  official MCP servers  →  Claude Code + download skill  �
 | --- | --- | --- | --- |
 | GitHub | `https://api.githubcopilot.com/mcp/` | 10 private `atlas-*` repos | Yoni Pomerantz |
 | Notion | `https://mcp.notion.com/mcp` | 10 pages | Yoni Pomerantz |
-| Linear | `https://mcp.linear.app/mcp` | 10 issues (ATL-5 to ATL-14) | Yoni Pomerantz |
+| Linear | `https://mcp.linear.app/mcp` | 11 issues (ATL-5 to ATL-14, plus ATL-17 created in the demo video) | Yoni Pomerantz |
 | Asana | `https://mcp.asana.com/v2/mcp` | 12 tasks | Rafi Cornick |
 | Todoist | `https://ai.todoist.net/mcp` | 12 tasks | Zachary Sicklick |
 
@@ -109,12 +109,12 @@ It checks required fields, file names, timestamp format and duplicate IDs, and p
 
 - Presentation: [docs/Atlas-Data-Dashboard.pptx](docs/Atlas-Data-Dashboard.pptx) (PDF copy: [docs/Atlas-Data-Dashboard.pdf](docs/Atlas-Data-Dashboard.pdf))
 - Screenshots: `docs/<service>-original.png` (the test content in each service) and `docs/<service>-dashboard.png` (the same content in the dashboard), plus `docs/cross-service-search.png`
-- Demo video: TODO, add link
+- Demo video: [docs/demo-video.mp4](docs/demo-video.mp4) (2:52): logging into Linear, creating an issue, downloading it with the Claude Code skill, launching the dashboard, and searching
 
 ## Limitations
 
 - **Gmail is skipped, with the instructor's permission.** Google's official Gmail MCP server (`https://gmailmcp.googleapis.com/mcp/v1`) only works for Google Cloud projects enrolled in the Google Workspace Developer Preview Program, and that enrollment requires a Google Workspace account. Our test account is a regular Gmail address, so the enrollment form rejects it. We got as far as signing in and loading the server's 23 tools, but every tool call returned "Access to this tool requires that your Google Cloud project is enrolled in the Google Workspace Developer Preview Program."
 - **Google Calendar and Google Drive were replaced by Todoist and Asana.** Google's official Calendar and Drive MCP servers have the same Developer Preview requirement as Gmail.
 - **GitHub** uses a personal access token, because its official server does not support Claude Code's browser sign-in. **Asana** needs a self-created OAuth app for the same reason.
-- **Linear** also exports its 4 default onboarding issues (ATL-1 to ATL-4), so its folder has 14 files.
+- **Linear** also exports its 4 default onboarding issues (ATL-1 to ATL-4), so its folder has 15 files.
 - Service-specific gaps (fields a server does not return, such as Notion's page creation time or Todoist's change time) are listed per service in `localStorageFormats.md`.
